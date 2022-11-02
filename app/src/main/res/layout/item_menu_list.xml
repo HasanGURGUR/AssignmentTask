@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="menuItem"
+            type="hasan.gurgur.enerjisatask.model.ResultObject" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/item_menu_list_background">
+
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="@dimen/dimen20"
+            android:layout_height="@dimen/dimen20"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="42dp"
+            loadImage="@{menuItem.key}"
+            tools:src="@drawable/ic_abonelik" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="11dp"
+            android:text="@{menuItem.value}"
+            android:fontFamily="@font/hind_medium"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimens18"
+            tools:text="Abonelik" />
+
+
+    </LinearLayout>
+</layout>

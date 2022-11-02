@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">EnerjiSATask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="randevu">Size en yakın hizmet noktalarımızdan aşağıdaki işlemler için randevu alabilir , sıra beklemeden işlemlerinizi kolayca gerçekleştirebilirsiniz.</string>
+    <string name="guvence_bedeli">Güvence bedeli tutarı, eşit iki taksit halinde ilk ve ikinci faturanıza yansıtılacaktır.</string>
+    <string name="guarantee_cost_description">Görevli tedarik şirketi, kullanım yerinin değişmesi
+ve/veya perakende satış sözleşmesinin sona
+ermesi veya sözleşmenin feshi halinde,
+tüketicinin elektrik enerjisi tüketim bedelini
+ödememesi ihtimaline karşılık olarak, borcuna
+mahsup etmek üzere güvence bedeli talep eder.
+Aboneliğinizi sonlandırmak isteyip, tahliye işlemi
+yapmanız durumunda içeride bulunan güvence
+bedeliniz, elektriğinizin kesilmesinden sonra
+oluşacak son faturanız ve varsa vadesi geçmiş
+borçlarınızla mahsuplaşma güncellenerek
+tarafınıza iade edilecektir.</string>
+    <string name="_1">1</string>
+    <string name="mulkiyet_bilgileri">Mülkiyet Bilgileri</string>
+    <string name="abonelik_tipi">Abonelik Tipi</string>
+    <string name="mulk_sahibi_bilgileri">Mülk Sahibi Bilgileri</string>
+    <string name="ozel_kisi">Özel Kişi</string>
+    <string name="tuzel_kisi">Tüzel Kişi</string>
+    <string name="adi">Adı</string>
+    <string name="soyadi">Soyadı</string>
+    <string name="tc_kimlik_numarasi">T.C. Kimlik Numarası</string>
+    <string name="_2">2</string>
+    <string name="guvence_bedeli_title">Güvence Bedeli</string>
+    <string name="guvence_bedeli_desc">Güvence bedeli tutarı, eşit iki taksit halinde ilk ve ikinci faturanıza yansıtılacaktır.</string>
+    <string name="guncel_guvence_bedeli_tutari">Güncel Güvence Bedeli Tutarı</string>
+    <string name="kapat">Kapat</string>
+
+    <string-array name="abone_tipleri">
+        <item>Mesken (Konut)</item>
+        <item>Mesken (İş Yeri)</item>
+        <item>Kurumsal </item>
+        <item>Kamu</item>
+    </string-array>
+    <string name="new_subs">Yeni Abonelik</string>
+    <string name="appointment">Randevu</string>
+</resources>
